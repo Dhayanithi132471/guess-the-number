@@ -1,0 +1,49 @@
+
+body {
+  background-color: red;
+  text-align: center;
+  padding: 50px;
+}
+
+h1 {
+  color: #333;
+}
+
+.game-container {
+  background: white;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+input[type="number"] {
+  padding: 10px;
+  font-size: 16px;
+  width: 60%;
+  margin-bottom: 15px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: red;
+}
+
+.message {
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+.lives {
+  margin-top: 10px;
+  font-weight: bold;
+}
